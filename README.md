@@ -23,3 +23,9 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
 ### Check the sdk installed:
 dotnet --list-sdks
+
+### Create a console app:
+dotnet new console
+
+### Install monoGame templates:
+dotnet new --install MonoGame.Templates.CSharp
