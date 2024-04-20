@@ -29,3 +29,8 @@ dotnet new console
 
 ### Install monoGame templates:
 dotnet new --install MonoGame.Templates.CSharp
+
+### If you want to run the template, this commandas are not optional:
+sudo apt install wine64 p7zip-full curl
+wget -qO- https://raw.githubusercontent.com/MonoGame/MonoGame/master/Tools/MonoGame.Effect.Compiler/mgfxc_wine_setup.sh | bash
+
