@@ -34,3 +34,5 @@ dotnet new --install MonoGame.Templates.CSharp
 sudo apt install wine64 p7zip-full curl
 wget -qO- https://raw.githubusercontent.com/MonoGame/MonoGame/master/Tools/MonoGame.Effect.Compiler/mgfxc_wine_setup.sh | bash
 
+### This video helps:
+https://www.youtube.com/watch?v=hP1brtwy_qI
